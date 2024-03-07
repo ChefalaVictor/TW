@@ -9,9 +9,9 @@ const { Header, Content, Footer } = Layout;
 
 const App = () => {
   const cardData = [
-    { id: 1, title: 'Card 1', content: 'Content of card 1' },
-    { id: 2, title: 'Card 2', content: 'Content of card 2' },
-    { id: 3, title: 'Card 3', content: 'Content of card 3' },
+    { id: 1, title: 'Card 1', content: 'MAIB' },
+    { id: 2, title: 'Card 2', content: 'MICB ' },
+    { id: 3, title: 'Card 3', content: 'VICTORIABANK ' },
   ];
 
   return (

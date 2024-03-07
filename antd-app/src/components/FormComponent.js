@@ -3,20 +3,21 @@ import { Form, Input, Button } from 'antd';
 
 const FormComponent = () => {
     const onFinish = values => {
-        console.log('Form submitted:', values);
-        alert('Form submitted successfully!');
+        console.log('Form submitted:', values); // Afisare in consola
+        alert('Form submitted successfully!'); // Afișare alertă
     };
 
     return (
+
         <Form onFinish={onFinish} style={{ maxWidth: 300 }}>
-            <Form.Item name="input1">
-                <Input placeholder="Input 1" />
+            <Form.Item name="Card Holder">
+                <Input placeholder="Card Holder" />
             </Form.Item>
-            <Form.Item name="input2">
-                <Input placeholder="Input 2" />
+            <Form.Item name="Name of bank">
+                <Input placeholder="Name of bank" />
             </Form.Item>
-            <Form.Item name="input3">
-                <Input placeholder="Input 3" />
+            <Form.Item name="Number of card">
+                <Input placeholder="Number of card" />
             </Form.Item>
             <Form.Item>
                 <Button type="primary" htmlType="submit">
